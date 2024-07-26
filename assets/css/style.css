@@ -31,7 +31,17 @@ section > p{
   background-color: brown;
 }
 
+/* SELECTOR PRIMER HERMANO HACIA ABAJO */
+h1 + p{
+  color:brown;
+  background-color: rgb(148, 86, 86) !important;
+}
 
+/* SELECTOR TODOS LOS HERMANOS HACIA ABAJO */
+h1 ~ p{
+  color:rgb(206, 29, 29);
+  background-color: beige !important;
+}
 
 /* p{
   font-size: 2rem;

@@ -13,4 +13,5 @@
 ### Selectores avanzados
 - selector  selector (section p) - cambiarán las propiedades de todos los DESCENDIENTES p de todos los section que haya.
 - selector > selector (section > p) - cambiarán las propiedades de todos los HIJOS o DESCENDIENTES DIRECTOS p de todos los section que haya
-- 
+- selector + selector (h1 + p) - cambiarán las propiedades del PRIMER hermano p después de h1
+- selector ~ selector (h1 ~ p) - cambiarán las propiedades de TODOS los hermanos p después de h1
