@@ -19,9 +19,19 @@ selector{
   background-color: greenyellow;
 }
 
+/* SELECTOR DESCENDIENTES */
 section p{
   font-size: 3rem;
 }
+
+/* SELECTOR DESCENDIENTES DIRECTOS O HIJOS */
+section > p{
+  font-size: 1.5rem;
+  color:chocolate;
+  background-color: brown;
+}
+
+
 
 /* p{
   font-size: 2rem;

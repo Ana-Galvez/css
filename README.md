@@ -11,5 +11,6 @@
 3. Elementos y pseudoelementos  vale 1
 
 ### Selectores avanzados
-- selector  selector (section p) - cambiará las propiedades de todos los descendientes p de todos los section que haya.
+- selector  selector (section p) - cambiarán las propiedades de todos los DESCENDIENTES p de todos los section que haya.
+- selector > selector (section > p) - cambiarán las propiedades de todos los HIJOS o DESCENDIENTES DIRECTOS p de todos los section que haya
 - 
