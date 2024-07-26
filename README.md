@@ -15,3 +15,10 @@
 - selector > selector (section > p) - cambiarán las propiedades de todos los HIJOS o DESCENDIENTES DIRECTOS p de todos los section que haya
 - selector + selector (h1 + p) - cambiarán las propiedades del PRIMER hermano p después de h1
 - selector ~ selector (h1 ~ p) - cambiarán las propiedades de TODOS los hermanos p después de h1
+
+#### Pseudoclases
+- :first-child   -(p:first-child) - selecciona el primer hijo p de cualquier elemento.   (section p:first-child) - selecciona el primer hijo p de cada section
+- :last-child    -(p:last-child)  - selecciona el último p de cualquier elemento
+- :only-child    -(p:only-child)  - selecciona el p si es el único descendiente. No se considera único si hay nietos o más
+- :not(selector)  -(:not(p))       - selecciona todos los selectores que no sean p
+ 

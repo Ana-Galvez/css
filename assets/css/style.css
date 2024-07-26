@@ -43,6 +43,22 @@ h1 ~ p{
   background-color: beige !important;
 }
 
+section p:first-child{
+  background-color: aquamarine;
+}
+
+p:last-child{
+  font-size: 0.5rem;
+}
+
+p:only-child{
+  font-size: 4rem;  
+}
+
+:not(p){
+  color:hotpink
+} 
+
 /* p{
   font-size: 2rem;
 } */
