@@ -1,4 +1,29 @@
 /* css external */
+/* Sintaxis css
+selector{
+  propiedad: valor;
+}
+*/
+
+
+#background-blue{
+  background-color: rgb(100, 100, 114);
+}
+
+.section1{
+  background-color: darkgreen;
+  font-size: 3rem;
+  border: 2px solid red;
+}
+
+.section2{
+  background-color: greenyellow;
+}
+
 p{
-  background-color: blue !important;
+  font-size: 2rem;
+}
+
+#background-blue:hover, .section1:hover, .section2:hover{
+  background-color: darkred;
 }
