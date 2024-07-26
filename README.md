@@ -6,6 +6,10 @@
 3. css external
 
 ### Importancia en la especificidad
-1. IDs
-2. Clases, pseudoclases y selectores de atributos
-3. Elementos y pseudoelementos
+1. IDs   vale 100
+2. Clases, pseudoclases y selectores de atributos  vale 10
+3. Elementos y pseudoelementos  vale 1
+
+### Selectores avanzados
+- selector  selector (section p) - cambiará las propiedades de todos los descendientes p de todos los section que haya.
+- 

@@ -6,13 +6,12 @@ selector{
 */
 
 
-#background-blue{
+/* #background-blue{
   background-color: rgb(100, 100, 114);
-}
+} */
 
 .section1{
   background-color: darkgreen;
-  font-size: 3rem;
   border: 2px solid red;
 }
 
@@ -20,10 +19,14 @@ selector{
   background-color: greenyellow;
 }
 
-p{
-  font-size: 2rem;
+section p{
+  font-size: 3rem;
 }
 
-#background-blue:hover, .section1:hover, .section2:hover{
+/* p{
+  font-size: 2rem;
+} */
+
+/* #background-blue:hover, .section1:hover, .section2:hover{
   background-color: darkred;
-}
+} */
