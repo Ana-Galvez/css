@@ -18,6 +18,8 @@
 
 #### Pseudoclases
 - :first-child   -(p:first-child) - selecciona el primer hijo p de cualquier elemento.   (section p:first-child) - selecciona el primer hijo p de cada section
+- :first-of-type  -(p:first-of-type)  -selecciona el primer p de cada elemento
+- :last-of-type   -(p:last-of-type)  -selecciona el último p de cada elemento
 - :last-child    -(p:last-child)  - selecciona el último p de cualquier elemento
 - :only-child    -(p:only-child)  - selecciona el p si es el único descendiente. No se considera único si hay nietos o más
 - :not(selector)  -(:not(p))       - selecciona todos los selectores que no sean p
@@ -26,6 +28,7 @@
                           -   p:nth-child(even o odd) - selecciona los p pares o impares
                           - p:nth-child(5n) - selecciona desde el quinto p y sus múltiplos, 5,10,15, etc
                           - p:nth-child(4n+3) - selecciona el tercer p y va sumando 4,    3,7,11,15, etc
+- :nth-of-type(parámetro) - (p:nth-of-type(even)) - selecciona los p que sean pares
 - :nth-last-child(parámetro) - es como :nth-child() pero comienza desde el último elemento
 - :hover                - p:hover - al pasar el cursor por algún p
 - :link       -a:link   - muestra los cambios en el texto del a antes de cliquear en el link

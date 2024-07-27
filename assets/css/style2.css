@@ -6,6 +6,14 @@ p:nth-child(even){
   background-color: blue;
 }
 
+p:nth-of-type(even){
+  background-color:red;
+}
+
+p:nth-of-type(odd){
+  background-color:green;
+}
+
 p:nth-child(odd){
   background-color: yellow;
 } */

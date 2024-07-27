@@ -47,6 +47,14 @@ section p:first-child{
   background-color: aquamarine;
 }
 
+/* p:first-of-type{
+  background-color: blue;
+} */
+
+/* p:last-of-type{
+  background-color: blue;
+} */
+
 p:last-child{
   font-size: 0.5rem;
 }
