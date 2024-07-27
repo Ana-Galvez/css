@@ -1,0 +1,18 @@
+p::first-line{
+  color:blueviolet
+}
+p::first-letter{
+  color:coral;
+  font-size: 1.5rem;
+}
+p::selection{
+  color:crimson;
+}
+input::placeholder{
+  background-color: yellow;
+}
+
+li::marker{
+  color:blue;
+  font-size: 1.5rem;
+}
