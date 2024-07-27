@@ -55,3 +55,4 @@
 #### Atributos de selectores
 - [atributo] -[target] -selecciona todos los elementos que tengan el atributo target
 - [atributo="value"] - [target="_blank"] - selecciona todos los elementos que tengan el atributo target con valor _blank
+- elemento[atributo="value"]  -article[role="article"]  - selecciona los article que tengan el atributo role con el valor article

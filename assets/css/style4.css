@@ -9,3 +9,12 @@
 [role="article"]::first-line{
   background-color: blue;
 }
+
+/* [type="email"]{
+  background-color: aquamarine;
+} */
+
+body > input[type="email"]{
+  background-color: brown;
+}
+
