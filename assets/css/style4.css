@@ -6,9 +6,9 @@
   background-color: green;
 } */
 
-[role="article"]::first-line{
+/* [role="article"]::first-line{
   background-color: blue;
-}
+} */
 
 /* [type="email"]{
   background-color: aquamarine;
@@ -16,5 +16,9 @@
 
 body > input[type="email"]{
   background-color: brown;
+}
+
+[class="parrafo-importante"]:hover, :not([class])::first-line{
+  color:red;
 }
 
