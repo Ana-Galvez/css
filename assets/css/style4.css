@@ -26,6 +26,14 @@ body > input[type="email"]{
   color:rgb(66, 66, 201)
 } */
 
-[class $= "e"]{
+/* [class $= "e"]{
   background-color: brown;
+}
+
+[class *= "impo"]{
+  color:yellow;
+} */
+
+[class |= "parrafo"]{
+  background-color: blue;
 }
