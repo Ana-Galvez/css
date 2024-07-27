@@ -34,6 +34,10 @@ body > input[type="email"]{
   color:yellow;
 } */
 
-[class |= "parrafo"]{
+/* [class |= "parrafo"]{
   background-color: blue;
+} */
+
+[class ~= "parrafo-importante"]{
+  background-color: red;
 }
