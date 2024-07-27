@@ -27,3 +27,6 @@
                           - p:nth-child(5n) - selecciona desde el quinto p y sus múltiplos, 5,10,15, etc
                           - p:nth-child(4n+3) - selecciona el tercer p y va sumando 4,    3,7,11,15, etc
 - :nth-last-child(parámetro) - es como :nth-child() pero comienza desde el último elemento
+- :hover                - p:hover - al pasar el cursor por algún p
+- :link       -a:link   - muestra los cambios en el texto del a antes de cliquear en el link
+- :visited    -a:visited - muestra los cambios cuando ya se hizo click

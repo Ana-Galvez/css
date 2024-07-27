@@ -25,3 +25,17 @@ p:nth-child(odd){
 p:nth-last-child(4n+3){
   background-color: crimson;
 }
+
+p:hover{
+  background-color: cornflowerblue;
+}
+/* a:hover{
+  background-color: rgb(207, 50, 181);
+} */
+a:link{
+  background-color: rgb(75, 83, 83);
+  font-size: 2rem;
+}
+a:visited{
+  background-color: aquamarine;
+}
