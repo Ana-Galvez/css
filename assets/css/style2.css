@@ -34,6 +34,10 @@ p:nth-last-child(4n+3){
   background-color: crimson;
 }
 
+/* p:nth-last-of-type(even){
+  background-color: yellow;
+} */
+
 p:hover{
   background-color: cornflowerblue;
 }
