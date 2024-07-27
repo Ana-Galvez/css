@@ -1,0 +1,11 @@
+[disabled]{
+  background-color: red;
+}
+
+/* [role]{
+  background-color: green;
+} */
+
+[role="article"]::first-line{
+  background-color: blue;
+}

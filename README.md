@@ -53,4 +53,5 @@
 - ::marker   -li::marker  -selecciona las viñetas o números de una lista
 
 #### Atributos de selectores
-- 
+- [atributo] -[target] -selecciona todos los elementos que tengan el atributo target
+- [atributo="value"] - [target="_blank"] - selecciona todos los elementos que tengan el atributo target con valor _blank
