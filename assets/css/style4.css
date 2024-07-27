@@ -18,7 +18,14 @@ body > input[type="email"]{
   background-color: brown;
 }
 
-[class="parrafo-importante"]:hover, :not([class])::first-line{
+/* [class="parrafo-importante"]:hover, :not([class])::first-line{
   color:red;
-}
+} */
 
+/* [class ^= "par"]{
+  color:rgb(66, 66, 201)
+} */
+
+[class $= "e"]{
+  background-color: brown;
+}

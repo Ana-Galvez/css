@@ -56,3 +56,5 @@
 - [atributo] -[target] -selecciona todos los elementos que tengan el atributo target
 - [atributo="value"] - [target="_blank"] - selecciona todos los elementos que tengan el atributo target con valor _blank
 - elemento[atributo="value"]  -p[class="parrafo-importante"]  - selecciona los p que tengan el atributo class con el valor parrafo-importante
+- [atributo ^= "value"] - [class ^= "par"]  - selecciona las clases que comiencen con la palabra par(puede comenzar con palabra, letras, símbolos)
+- [atributo $= "value"] - [class $= "e"] - selecciona las clases que terminan con e
