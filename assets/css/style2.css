@@ -39,3 +39,27 @@ a:link{
 a:visited{
   background-color: aquamarine;
 }
+
+/* input:focus, textarea:focus, a:focus{
+  background-color: red;
+} */
+
+input:required{
+  background-color: brown;
+}
+input:optional{
+  font-size: 3.5rem;
+}
+input:read-only{
+  letter-spacing: 1.5rem;
+}
+
+input:disabled{
+  background-color: darkgoldenrod;
+}
+input:enabled{
+  font-size: 2rem;
+}
+textarea:read-write{
+  background-color: blue;
+}

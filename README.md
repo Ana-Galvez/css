@@ -30,3 +30,10 @@
 - :hover                - p:hover - al pasar el cursor por algún p
 - :link       -a:link   - muestra los cambios en el texto del a antes de cliquear en el link
 - :visited    -a:visited - muestra los cambios cuando ya se hizo click
+- :focus      -input:focus  - al tener el foco el input
+- :required   -input:required  -los input con atributo required
+- :disabled  -input:disabled   -los input con atributo disabled
+- :enabled   -input:enabled  -los input que no tienen el atributo disabled
+- :optional  -input:optional  -los input que no tienen el atributo required
+- :read-only  -input:read-only  -los inpput que tienen el atributo read-only
+- :read-write -input:read-write  - los input que no tienen el atributo read-only
