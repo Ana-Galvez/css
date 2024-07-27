@@ -37,3 +37,4 @@
 - :optional  -input:optional  -los input que no tienen el atributo required
 - :read-only  -input:read-only  -los inpput que tienen el atributo read-only
 - :read-write -input:read-write  - los input que no tienen el atributo read-only
+- :empty      -textarea:empty   -los textarea que no tengan texto al principio

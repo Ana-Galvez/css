@@ -63,3 +63,7 @@ input:enabled{
 textarea:read-write{
   background-color: blue;
 }
+
+textarea:empty{
+  font-size: 5rem;
+}
