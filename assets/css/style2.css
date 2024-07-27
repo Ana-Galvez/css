@@ -1,0 +1,19 @@
+/* div p:nth-child(3){
+  background-color: red;
+}
+
+p:nth-child(even){
+  background-color: blue;
+}
+
+p:nth-child(odd){
+  background-color: yellow;
+} */
+
+/* div p:nth-child(5n){
+  background-color: chocolate;
+} */
+
+/* p:nth-child(4n+3){
+  background-color: chartreuse;
+} */

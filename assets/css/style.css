@@ -57,7 +57,9 @@ p:only-child{
 
 :not(p){
   color:hotpink
-} 
+}
+
+
 
 /* p{
   font-size: 2rem;
