@@ -43,6 +43,7 @@
 - :read-only  -input:read-only  -los inpput que tienen el atributo read-only
 - :read-write -input:read-write  - los input que no tienen el atributo read-only
 - :empty      -textarea:empty   -los textarea que no tengan texto al principio
+- :checked    - si tiene el check en los input
 
 #### Pseudoelementos
 - ::first-line  - p::first-line  - selecciona la primera linea de cada párrafo
@@ -50,3 +51,6 @@
 - ::selection  -p::selection   -el usuario al seleccionar una parte de algún párrafo
 - ::placeholder  -input::placeholder  - selecciona el input antes de que el usuario escriba algo
 - ::marker   -li::marker  -selecciona las viñetas o números de una lista
+
+#### Atributos de selectores
+- 
