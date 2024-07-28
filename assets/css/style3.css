@@ -16,3 +16,21 @@ li::marker{
   color:blue;
   font-size: 1.5rem;
 }
+
+li::before{
+  content: "hola ";
+}
+
+li::after{
+  content:" adios"
+}
+
+span::before{
+  content: " ANTES DEL SPAN ";
+  color:aquamarine
+}
+
+span::after{
+  content: " DESPUÉS DEL SPAN ";
+  color:aquamarine;
+}

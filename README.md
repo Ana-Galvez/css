@@ -54,6 +54,9 @@
 - ::selection  -p::selection   -el usuario al seleccionar una parte de algún párrafo
 - ::placeholder  -input::placeholder  - selecciona el input antes de que el usuario escriba algo
 - ::marker   -li::marker  -selecciona las viñetas o números de una lista
+- ::before  -li::before{content:"texto"} - agregará el texto al principio de los textos de los li
+- ::after -li::after{content:"texto"} - agregará el texto al final de los textos de los li
+    - Para poner texto en el medio de otro texto se puede usar la etiqueta span
 
 #### Atributos de selectores
 - [atributo] -[target] -selecciona todos los elementos que tengan el atributo target
