@@ -18,6 +18,20 @@ body > input[type="email"]{
   background-color: brown;
 }
 
+/* con atributos, los valores deben ser completos, si no se pone alguno no va a funcionar */
+p[class="parrafo_importante parrafo"]{
+  background-color: yellow;
+}
+
+[class~="parrafo"]{
+  font-size: 2rem;
+}
+
+p.parrafo-importante{
+  background-color: blue;
+}
+
+
 /* [class="parrafo-importante"]:hover, :not([class])::first-line{
   color:red;
 } */
@@ -38,6 +52,6 @@ body > input[type="email"]{
   background-color: blue;
 } */
 
-[class ~= "parrafo-importante"]{
+/* [class ~= "parrafo-importante"]{
   background-color: red;
-}
+} */
