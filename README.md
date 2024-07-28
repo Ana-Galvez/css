@@ -61,3 +61,14 @@
 - [atributo *= "value"] - [class *= "impo"] - selecciona las clases que comiencen, terminen o tengan en cualquier lado el valor impo
 - [atributo |= "value"] - [class |= "parrafo"] -selecciona las clases que comiencen con la palabra EXACTA parrafo y aplicará los estilos si la clase se llama por ej parrafo-loquevenga(debe tener sí o sí -)
 - [atributo ~= "value"] - [class ~= "parrafo-importante"] - selecciona las clases que tengan de valor EXACTO parrafo-importante. Si el value tiene palabras separadas con espacios, con que solo aparezca una, aplicará los estilos.
+
+#### Selector Universal *
+- *{
+  font-size : 2rem;
+}
+Aplica a toda la página, aunque luego si algún elemento usa font-size, su valor va a cambiar.
+
+- div *{
+  font-size : 2rem;
+}
+Aplica a todos los elementos que estén adentro del div.
