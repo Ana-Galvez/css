@@ -79,3 +79,11 @@ textarea:read-write{
 textarea:empty{
   font-size: 5rem;
 }
+
+input[type="email"]:valid{
+  background-color: green;
+}
+
+input[type="email"]:invalid{
+  background-color: red;
+}

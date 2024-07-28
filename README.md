@@ -44,6 +44,8 @@
 - :read-write -input:read-write  - los input que no tienen el atributo read-only
 - :empty      -textarea:empty   -los textarea que no tengan texto al principio
 - :checked    - si tiene el check en los input
+- :valid   - input[type="email"]:valid - a los input tipo email se le aplicarán los estilos si lo escrito está dentro de las validaciones de un email (en el caso html caracteres@caracteres)
+- :invalid -input[type="email"]:invalid -a los input tipo email se le aplicarán los estilos si lo escrito está fuera de las validaciones de un email (en el caso html caracteres@caracteres)
 
 #### Pseudoelementos
 - ::first-line  - p::first-line  - selecciona la primera linea de cada párrafo
