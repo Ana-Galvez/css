@@ -1,0 +1,45 @@
+/* Reseteo y normalición de la página  */
+
+* {
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+a{
+  padding-left: 100px;
+}
+
+div > p{
+  position:fixed;
+  background-color: yellow;
+  top: 200px
+}
+
+.contenedor-fixed{
+  position: fixed;
+  background-color: olive;
+}
+
+.contenedor-fixed-con-left-top{
+  position: fixed;
+  background-color: brown;
+  top: 500px;
+  left:120px
+}
+
+.parrafo-fixed{
+  position: fixed;
+  top:120px;
+}
