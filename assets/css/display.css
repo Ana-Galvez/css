@@ -64,3 +64,13 @@ p {
   height: 150px;
   margin-top: 50px;
 }
+
+li{
+  display: inline;
+}
+
+.span-list-item{
+  display: list-item;
+  background-color: rgb(109, 32, 32);
+  list-style-position: inside;
+}
