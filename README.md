@@ -89,3 +89,4 @@ Aplica a todos los elementos que estén adentro del div.
 ### Display
 1. display: inline - ocupan el espacio de su contenido, si hay 2 elementos inline detrás de otro, en la página aparecen juntos en la misma línea. No permiten modificar su tamaño. Padding y margin solo de forma horizontal, o sea margin-left o margin-right. Vertical no funciona.
 2. display: block  - ocupan todo el width, siempre van a estar en líneas diferentes. Permiten modificar su tamaño, todos los padding y todos los margin.
+3. display: inline-block  - se comporta como inline pero se le puede modificar el tamaño y todos los padding y margin.
