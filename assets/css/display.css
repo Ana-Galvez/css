@@ -19,3 +19,30 @@ p {
 
 
 /* DISPLAY */
+.span-inline{
+  background-color: greenyellow;
+  height: 150px; /* no funciona porque el elemento es inline*/
+  margin-right: 15px;
+  left:100px; /* no funciona porque el elemento tiene position:static*/
+}
+
+.parrafo-block{
+  background-color: brown;
+  width: 500px;
+  height: 150px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  left: 100px; /* no funciona porque el elemento tiene position:static*/
+}
+
+.parrafo-inline{
+  display: inline;
+  background-color: crimson;
+  margin-left: 15px;
+  padding-left: 150px;
+  text-align: left;
+}
+
+.span-block{
+  background-color: cornflowerblue;
+}

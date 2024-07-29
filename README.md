@@ -87,5 +87,5 @@ Aplica a todos los elementos que estén adentro del div.
 5. position:sticky  - es como una mezcla de relative y fixed. Se deben usar top o bottom para decirle al elemento sticky cuando queda fijo en la pantalla, mientras no llegue a esa altura se comporta como si fuera relative. Esa altura será según el body si el sticky es hijo directo. Si es hijo de otro elemento, este elemento debe tener tamaño fijado o no va a funcionar y el sticky solo se va a mantener mientras se vea el alto del elemento padre.
 
 ### Display
-1. display: inline - 
-2. display: block  - 
+1. display: inline - ocupan el espacio de su contenido, si hay 2 elementos inline detrás de otro, en la página aparecen juntos en la misma línea. No permiten modificar su tamaño. Padding y margin solo de forma horizontal, o sea margin-left o margin-right. Vertical no funciona.
+2. display: block  - ocupan todo el width, siempre van a estar en líneas diferentes. Permiten modificar su tamaño, todos los padding y todos los margin.
