@@ -44,8 +44,22 @@ div > p{
   top:120px;
 }
 
-.sticky{
+.sticky-sin-contenedor{
   position: sticky;
   top:500px;
   left:500px;
+  background-color: blue;
+  font-size: 1.5rem;
+}
+
+.contenedor-sticky{
+  background-color: coral;
+  width: 500px;
+  height: 500px;
+}
+
+.sticky-con-contenedor{
+  background-color: blueviolet;
+  position: sticky;
+  top:100px;
 }
