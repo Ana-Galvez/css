@@ -57,3 +57,10 @@ p {
   width: 400px;
   margin-top: 50px;
 }
+
+.parrafo-none{
+  display:none;
+  background-color: darkcyan;
+  height: 150px;
+  margin-top: 50px;
+}
