@@ -29,6 +29,15 @@ p {
   left: 1000px;
 }
 
+.relative-sin-contenedor{
+  position: relative;
+  background-color: olive;
+  width: 500PX;
+  height: 150px;
+  left: 100px;
+  top: 500px
+}
+
 .contenedor-para-hijo-relative{
   background-color: green;
 }
