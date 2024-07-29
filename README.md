@@ -92,3 +92,4 @@ Aplica a todos los elementos que estén adentro del div.
 3. display: inline-block  - se comporta como inline pero se le puede modificar el tamaño y todos los padding y margin.
 4. display: none - el elemento se oculta para la vista del usuario y los otros elementos ocupan su lugar, pero en el código html aparece, o sea el elemento con display:none igualmente se carga.
 5. display: list-item  - este display lo utilizan los li. Con la propiedad y valor list-style-position: inside en algún elemento lo transforma como una lista, pone viñeta.
+6. display: table/table-row/table-cells  - estos display y todos los que comienzan con table, los usan las etiquetas de tabla, pero se puede usar para maquetar otros elementos.

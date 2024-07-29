@@ -74,3 +74,23 @@ li{
   background-color: rgb(109, 32, 32);
   list-style-position: inside;
 }
+
+.contenedor-tabla{
+  display: table;
+  background-color: blueviolet;
+}
+
+.contenedor-row{
+  display:table-row;
+}
+
+.dato-de-columna{
+  display:table-cell;
+  font-size: 1.5rem;
+  background-color: darkblue;
+  font-weight: bold;
+}
+.dato-de-tabla{
+  display: table-cell;
+  text-align: center;
+}
