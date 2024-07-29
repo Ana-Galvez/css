@@ -58,7 +58,7 @@
 - ::after -li::after{content:"texto"} - agregará el texto al final de los textos de los li
     - Para poner texto en el medio de otro texto se puede usar la etiqueta span
 
-#### Atributos de selectores
+#### Selectores de atributos
 - [atributo] -[target] -selecciona todos los elementos que tengan el atributo target
 - [atributo="value"] - [target="_blank"] - selecciona todos los elementos que tengan el atributo target con valor _blank. ATENCIÓN: Si el value tiene palabras con espacios, se deben escribir todas, sino no aplicará los estilos.
 - elemento[atributo="value"]  -p[class="parrafo-importante"]  - selecciona los p que tengan el atributo class con el valor parrafo-importante. ATENCIÓN: Si el value tiene palabras con espacios, se deben escribir todas, sino no aplicará los estilos.
@@ -81,7 +81,7 @@ Aplica a todos los elementos que estén adentro del div.
 
 ### Posicionamiento
 1. position:static;   -  es el valor por defecto, y no cambia su posición aunque usemos las propiedades left, right, top o bottom.
-2. position:relative  -  permite el uso de left, top, right y bottom, pero le da prioridad a left y top. Además al mover el elemento, su lugar original no es ocupado por otro elemento.
-3. position:absolute  -  para que sea relativo al padre, el padre o ascendentes deben tener position:relative o position:fixed. Si no hay ascendentes con relative o fixed, será relativo al html ( no body).    Permite el uso de left, top, right y bottom, pero le da prioridad a left y top. Además al mover el elemento, su lugar original es ocupado por otro elemento.
+2. position:relative  -  permite el uso de left, top, right y bottom, pero le da prioridad a left y top. Además al mover el elemento, su lugar original es ocupado por otro elemento.
+3. position:absolute  -  para que sea relativo al padre, el padre o ascendentes deben tener position:relative o position:fixed. Si no hay ascendentes con relative o fixed, será relativo al html ( no body).    Permite el uso de left, top, right y bottom, pero le da prioridad a left y top. Además al mover el elemento, su lugar original no es ocupado por otro elemento.
 4. position:fixed  - el elemento siempre queda a la vista, aunque se haga scroll. Es relativo a la pantalla. No mueve los demás elementos.
 5. position:sticky  - es como una mezcla de relative y fixed. Se deben usar top o bottom para decirle al elemento sticky cuando queda fijo en la pantalla, mientras no llegue a esa altura se comporta como si fuera relative. Esa altura será según el body si el sticky es hijo directo. Si es hijo de otro elemento, este elemento debe tener tamaño fijado o no va a funcionar y el sticky solo se va a mantener mientras se vea el alto del elemento padre.
