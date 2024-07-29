@@ -1,0 +1,45 @@
+/* Reseteo y normalición de la página  */
+
+* {
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+body {
+  min-height: 100dvh;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* Al ser static no cambia de lugar */
+.static {
+  background-color: blue;
+  width: 250px;
+  height: 150px;
+  left: 1000px;
+}
+
+.contenedor-para-hijo-relative{
+  background-color: green;
+}
+
+.relative{
+  position: relative;
+  background-color: red;
+  width: 300px;
+  height: 500px;
+  /* left: 50%; */
+  /* top:300px; */
+  right:-500px;
+  bottom: -120px;
+}

@@ -78,3 +78,7 @@ Aplica a toda la página, aunque luego si algún elemento usa font-size, su valo
   font-size : 2rem;
 }
 Aplica a todos los elementos que estén adentro del div.
+
+### Posicionamiento
+1. position:static;   -  es el valor por defecto, y no cambia su posición aunque usemos las propiedades left, right, top o bottom.
+2. position:relative  -  permite el uso de left, top, right y bottom, pero le da prioridad a left y top. Además al mover el elemento, su lugar original no es ocupado por otro elemento.
