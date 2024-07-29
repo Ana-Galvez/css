@@ -44,5 +44,8 @@ p {
 }
 
 .span-block{
+  display:block;
   background-color: cornflowerblue;
+  margin:15px;
+  height: 100px;
 }
