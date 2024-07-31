@@ -106,3 +106,6 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 
 ### Unidades de medidas
 1. Absolutas: son las unidades fijas. cm (centímetros), mm (milímetros), pc (picas), in(pulgadas), pt(puntos que equivale a 1/72 in) y la más usada px (pixeles) equivale a 1/96 in.
+2. Relativas:
+  1. Al tamaño de la fuente:
+    1. em: se basa en el ancho de la letra m (que es la más ancha de las letras) de la propiedad font-size del elemento. Si el elemento no tiene asignada esa propiedad, se va a basar en su primer antecesor que tenga esa propiedad. Y si ningún antecesor lo tiene, lo toma del html que dependiendo el navegador, generalmente es 16px.
