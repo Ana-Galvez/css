@@ -20,7 +20,7 @@ p {
 
 /* DISPLAY */
 .span-inline{
-  background-color: greenyellow;
+  background-color: #dab423;
   height: 150px; /* no funciona porque el elemento es inline*/
   margin-right: 15px;
   left:100px; /* no funciona porque el elemento tiene position:static*/

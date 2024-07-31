@@ -96,8 +96,8 @@ Aplica a todos los elementos que estén adentro del div.
 
 ### Colores
 1. Con nombre: css proporciona casi 140 colores con solo poner su nombre como valor. ej color: blue.
-2. Hexadecimal: conjunto de 6 caracteres comenzando con #, las letras de a a f y números de 0 a 9, pudiendose combinarlos, si el código hexadecimal son los mismos números o letras solo se ponen 3. Los 2 primeros pertenecen al red, el tercero y cuarto al verde y los 2 últimos al azul.
-Ej: #afd356, #fff, #000, #3d5a8b.  los más cercanos a f van tirando a claro, mientras que a 0, van tirando a oscuro.
+2. Hexadecimal: conjunto de 6 caracteres comenzando con #, las letras de a a f y números de 0 a 9, pudiendose combinarlos, si el código hexadecimal son los mismos números o letras solo se ponen 3 o también si cada par es la misma letra o número. Los 2 primeros pertenecen al red, el tercero y cuarto al verde y los 2 últimos al azul.
+Ej: #afd356, #fff, #fe0, #000, #3d5a8b.  los más cercanos a f van tirando a claro, mientras que a 0, van tirando a oscuro. TAMBIÉN HAY hexadecimales con 8 caracteres y 4 caracteres. Las 2 últimas representan el alpha u opacidad. 00 sería oscuro y 99 más cercano al color original para 8 caracteres y de 0 a 1 para 4 caracteres. Ej: #3d5a8b, #ac45.
 3. RGB: se forma en 3 conjuntos y cada conjunto puede ser de 0 a 255, el primero es para la tonalidad de rojo (red), el segundo para el verde (green) y el tercero para el azul (blue). por eso RGB.
 ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependiendo al conjunto que pertenezca. Ej rgb(0,255,0) es el verde puro porque los demás tienen 0. Si los 3 tienen 0 va a ser negro, si los 3 tienen 255 va a ser blanco.
-4. 
+4. RGBA: igual que rgb, y la A se refiere al alpha, que sería la opacidad de 0 a 1 ej rgb(34,212,89, 0.4) sería 40% de opacidad
