@@ -1,0 +1,36 @@
+/* Reseteo y normalición de la página  */
+
+* {
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+html{
+  font-size: 24px;
+}
+
+body {
+  min-height: 100dvh;
+  font-size: 1.5em;
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* medidas */
+
+.contenedor-em{
+  background-color: chocolate;
+  font-size:1em; /* Este también es em así que busca el padre, que es body siendo su font-size de 20px */
+}
+
+.hijo-em{
+  font-size: 1em; /* al tener em busca a su padre (.contenedor-em). Este también es em así que busca el padre, que es body siendo su font-size de 20px */
+  background-color: brown;
+  border:1em solid rebeccapurple; /* toma el font-size de este mismo elemento, pero como es em busca al padre (.contenedor-em). Este también es em así que busca el padre, que es body siendo su font-size de 20px */
+}
