@@ -93,3 +93,11 @@ Aplica a todos los elementos que estén adentro del div.
 4. display: none - el elemento se oculta para la vista del usuario y los otros elementos ocupan su lugar, pero en el código html aparece, o sea el elemento con display:none igualmente se carga.
 5. display: list-item  - este display lo utilizan los li. Con la propiedad y valor list-style-position: inside en algún elemento lo transforma como una lista, pone viñeta.
 6. display: table/table-row/table-cells  - estos display y todos los que comienzan con table, los usan las etiquetas de tabla, pero se puede usar para maquetar otros elementos.
+
+### Colores
+1. Con nombre: css proporciona casi 140 colores con solo poner su nombre como valor. ej color: blue.
+2. Hexadecimal: conjunto de 6 caracteres comenzando con #, las letras de a a f y números de 0 a 9, pudiendose combinarlos, si el código hexadecimal son los mismos números o letras solo se ponen 3.
+Ej: #afd356, #fff, #000, #3d5a8b.  los más cercanos a f van tirando a claro, mientras que a 0, van tirando a oscuro.
+3. RGB: se forma en 3 conjuntos y cada conjunto puede ser de 0 a 255, el primero es para la tonalidad de rojo (red), el segundo para el verde (green) y el tercero para el azul (blue). por eso RGB.
+ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependiendo al conjunto que pertenezca. Ej rgb(0,255,0) es el verde puro porque los demás tienen 0. Si los 3 tienen 0 va a ser negro, si los 3 tienen 255 va a ser blanco.
+4. 
