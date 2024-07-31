@@ -26,11 +26,11 @@ p {
 
 .contenedor-em{
   background-color: chocolate;
-  font-size:1em; /* Este también es em así que busca el padre, que es body siendo su font-size de 20px */
+  font-size:1em; /* Este también es em así que busca el padre, que es body siendo su font-size de 36px */
 }
 
 .hijo-em{
-  font-size: 1em; /* al tener em busca a su padre (.contenedor-em). Este también es em así que busca el padre, que es body siendo su font-size de 20px */
+  font-size: 2em; /* al tener em busca a su padre (.contenedor-em). Este también es em así que busca el padre, que es body siendo su font-size de 36px, pero al poner el font-size en 2em, el font-size del elemento vale 72px, y este valor será 1em para las otras propiedades que usen em*/
   background-color: brown;
   border:1em solid rebeccapurple; /* toma el font-size de este mismo elemento, pero como es em busca al padre (.contenedor-em). Este también es em así que busca el padre, que es body siendo su font-size de 20px */
 }
