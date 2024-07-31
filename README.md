@@ -103,3 +103,6 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 4. RGBA: igual que rgb, y la A se refiere al alpha, que sería la opacidad de 0 a 1 ej rgb(34,212,89, 0.4) sería 40% de opacidad.
 5. HSL: hue-saturation-lightness: tono-saturación-luminosidad - El hue o tono se basa en un círculo cromático. El tono es por grados °. Cada 60 grados hay un tono diferente 0° rojo 60° amarillo 120° verde 180° cyan 240° azul 300° magenta. La saturación es la intensidad del color: 0% escala de grises al 100% color puro. La luminosidad 0% negro al 100% blanco.  ej: hsl(0,100%,50%). Los grados no se ponen. Sería un rojo puro. hsl(120,100%,50%) verde puro. Son 360 tonos que pertenecen a cada grado.
 6. HSLA: igual que HSL siendo A la opacidad. de 0 a 1. ej hsla(34,55%,18%, 0.4).
+
+### Unidades de medidas
+1. Absolutas: son las unidades fijas. cm (centímetros), mm (milímetros), pc (picas), in(pulgadas), pt(puntos que equivale a 1/72 in) y la más usada px (pixeles) equivale a 1/96 in.
