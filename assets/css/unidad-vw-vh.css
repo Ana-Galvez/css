@@ -1,0 +1,35 @@
+/* Reseteo y normalición de la página  */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+body {
+  min-height: 100dvh;
+  background-color: cadetblue;
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+body > p{
+  background-color: brown;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+div > p{
+  background-color: chocolate;
+  height: 100vh;
+  
+}
+

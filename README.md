@@ -105,11 +105,21 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 6. HSLA: igual que HSL siendo A la opacidad. de 0 a 1. ej hsla(34,55%,18%, 0.4).
 
 ### Unidades de medidas
-1. Absolutas: son las unidades fijas. cm (centímetros), mm (milímetros), pc (picas), in(pulgadas), pt(puntos que equivale a 1/72 in) y la más usada px (pixeles) equivale a 1/96 in.
+1. Absolutas: son las unidades fijas. cm (centímetros), mm (milímetros), pc (picas), in(pulgadas) 96 px o 2.56 cm, pt(puntos que equivale a 1/72 in) y la más usada px (pixeles) equivale a 1/96 in, Q (cuartos de milímetros 1/40 de cm)
 2. Relativas:
   1. Al tamaño de la fuente:
     1. em: se basa en el ancho de la letra m (que es la más ancha de las letras) de la propiedad font-size del elemento si lo tiene en pixeles. Si el elemento no tiene asignada esa propiedad, se va a basar en su primer antecesor que tenga esa propiedad en pixeles. Y si ningún antecesor lo tiene, lo toma del body si le hemos puesto la propiedad font-size en pixeles, sino lo toma de la etiqueta html que si no le ponemos la propiedad font-size va a ser de 16px. Ahora, cualquier propiedad del elemento que use em, se va a basar en el font-size del elemento, aunque el font-size sea en em. Si el font-size del elemento es 2em, y se basa en el html que es 16px, quiere decir que si al elemento le agregamos un border: 1em solid red; este 1em va a valer 32px, porque en el mismo elemento el font-size es 2em siendo cada em 16px.
     2. rem: se basa en el ancho de la letra m de la propiedad font-size del elemento raiz (html). Si la etiqueta html no tiene escrito por nosotros el font-size, entonces será de 16px. No importa si hay ascendientes con font-size, siempre va a tomar de la etiqueta html.
     3. ex: se basa en la altura de la letra x del font-size del elemento, sino del padre. Se maneja igual que el em pero con altura.
-    4. ch: se basa en la anchura del 0 cero de la fuente del elemento. Sirve si se quiere realizar algo que esté contado por caracteres.
+    4. rex: igual que ex pero tomando la altura de la etiqueta html.
+    5. ch: se basa en la anchura del 0 cero de la fuente del elemento. Sirve si se quiere realizar algo que esté contado por caracteres.
+    6. rch: igual que ch pero tomando la anchura del 0 de la etiqueta html.
+    7. cap: se basa en la altura de las letras mayúsculas de la fuente actual del elemento.
+    8. rcap: igual que cap pero tomando la altura de las letras mayúsculas del elemento html.
+    9. lh: se basa en la altura de la línea del elemento.
+    10. rlh: igual que lh pero toma la altura de la etiqueta html.
+    
   2. %: se basa en el tamaño del contenedor.
+  3. Al tamaño del viewport: que es la parte visible del navegador
+    1. vw: se basa por el ancho de la pantalla (OJO QUE APARECE BARRA DE DESPLAZAMIENTO HORIZONTAL, CONVIENE USAR 100%)
+    2. vh: se basa en la altura de la pantalla, si queremos que un elemento o contenedor cubra toda la altura se pone 100vh, no aparece barra vertical.
