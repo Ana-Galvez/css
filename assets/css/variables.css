@@ -1,9 +1,15 @@
+:root{
+  --color-primary:yellow;
+  --bg-primary:green;
+}
+
 /* Reseteo y normalización de la página  */
 
 * {
   box-sizing: border-box;
   min-width: 0;
 }
+
 
 body {
   min-height: 100dvh;
@@ -33,4 +39,9 @@ p {
 .contenedor > p {
   --color-primary: red;
   color:var(--color-primary);
+}
+
+p{
+  color:var(--color-primary);
+  background-color: var(--bg-primary);
 }
