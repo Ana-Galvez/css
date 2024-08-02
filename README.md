@@ -134,4 +134,16 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
     10. dvmax:
     11. dvi:
     12. dvb:
+    13. svw:
+    14. svh:
+    15. svi:
+    16. svb:
+    17. svmin:
+    18. svmax:
+    19. lvw:
+    20. lvh:
+    21. lvi:
+    22. lvb:
+    23. lvmin:
+    24. lvmax:
     
