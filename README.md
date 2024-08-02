@@ -124,7 +124,7 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
   3. Al tamaño del viewport: que es la parte visible del navegador
     1. vw: se basa por el ancho de la pantalla (OJO QUE APARECE BARRA DE DESPLAZAMIENTO HORIZONTAL, CONVIENE USAR 100%)
     2. vh: se basa en la altura de la pantalla, si queremos que un elemento o contenedor cubra toda la altura se pone 100vh, no aparece barra vertical.
-    3. vmin:
+    3. vmin: 
     4. vmax:
     5. vi:
     6. vb:
@@ -146,4 +146,14 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
     22. lvb:
     23. lvmin:
     24. lvmax:
-    
+  4. Al contenedor cuando se usa la regla @container (tiene que ver con las medias queries)
+    1. cqw: es igual que vw pero con @container
+    2. cqh: es igual que vh pero con @container
+    3. cqi: porcentaje relativo al tamaño de línea
+    4. cqb: porcentaje relativo al tamaño de bloque
+    5. cqmin: igual que vmin
+    6. cqmax: igual que vmax
+    7. cqem: igual que em
+    8. cqlh: igual que lh
+    9. cqex: igual que ex
+    10. cqch: igual que ch
