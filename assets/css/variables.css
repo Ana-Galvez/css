@@ -26,5 +26,11 @@ p {
 }
 
 .parrafo-sin-contenedor{
+  --color-primary: blue;
   color:var(--color-primary,orange);
+}
+
+.contenedor > p {
+  --color-primary: red;
+  color:var(--color-primary);
 }

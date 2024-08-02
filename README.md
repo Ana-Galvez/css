@@ -162,3 +162,4 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 --nombre-variable:valor ej  div{ --primary-color: blue; color: var(--primary-color);}
 - las variables son heredaras hacia los descendientes del elemento donde se declara la variable.
 - div{--primary-color: blue; color: var(--primary-color,orange);}  el segundo parámetro es un valor por defecto si ese elemento no hereda la variable.
+- Pueden existir varias variables con el mismo nombre, pero son diferentes si están en diferentes ámbitos (scope).
