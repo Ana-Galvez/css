@@ -118,8 +118,20 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
     8. rcap: igual que cap pero tomando la altura de las letras mayúsculas del elemento html.
     9. lh: se basa en la altura de la línea del elemento.
     10. rlh: igual que lh pero toma la altura de la etiqueta html.
-    
+    11. ic:
+    12. ric:
   2. %: se basa en el tamaño del contenedor.
   3. Al tamaño del viewport: que es la parte visible del navegador
     1. vw: se basa por el ancho de la pantalla (OJO QUE APARECE BARRA DE DESPLAZAMIENTO HORIZONTAL, CONVIENE USAR 100%)
     2. vh: se basa en la altura de la pantalla, si queremos que un elemento o contenedor cubra toda la altura se pone 100vh, no aparece barra vertical.
+    3. vmin:
+    4. vmax:
+    5. vi:
+    6. vb:
+    7. dvw:
+    8. dvh:
+    9. dvmin:
+    10. dvmax:
+    11. dvi:
+    12. dvb:
+    
