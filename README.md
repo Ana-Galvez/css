@@ -157,3 +157,8 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
     8. cqlh: igual que lh
     9. cqex: igual que ex
     10. cqch: igual que ch
+
+### Variables (custom properties)
+--nombre-variable:valor ej  div{ --primary-color: blue; color: var(--primary-color);}
+- las variables son heredaras hacia los descendientes del elemento donde se declara la variable.
+- div{--primary-color: blue; color: var(--primary-color,orange);}  el segundo parámetro es un valor por defecto si ese elemento no hereda la variable.
