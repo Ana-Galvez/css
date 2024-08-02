@@ -169,3 +169,6 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 - función calc() sirve para hacer cálculos
 - funciones min() y max()
 - función clamp(min, ideal, max)
+
+### Estilos de fuentes
+1. font    shorthand que une font-style font-variant font-weight font-size line-height font-family
