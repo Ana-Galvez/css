@@ -163,3 +163,9 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 - las variables son heredaras hacia los descendientes del elemento donde se declara la variable.
 - div{--primary-color: blue; color: var(--primary-color,orange);}  el segundo parámetro es un valor por defecto si ese elemento no hereda la variable.
 - Pueden existir varias variables con el mismo nombre, pero son diferentes si están en diferentes ámbitos (scope).
+
+### Otras funciones
+- función url()  para poner una ruta o dirección de internet
+- función calc() sirve para hacer cálculos
+- funciones min() y max()
+- función clamp(min, ideal, max)
