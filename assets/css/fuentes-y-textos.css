@@ -22,13 +22,32 @@ p {
   font-family: Monserrat;
   src: url("https://fonts.gstatic.com/s/montserrat/v26/JTUQjIg1_i6t8kCHKm459WxRyS7m.woff2");
   font-display: swap;
-}
+
+  font-family: Gupter;
+  src: url("https://fonts.gstatic.com/s/gupter/v14/2-cm9JNmxJqPO1QkZpy-.woff2");
+  font-display: swap;
+
+  font-family:"Playwrite";
+  src:url("https://fonts.gstatic.com/s/playwritear/v1/VEMjRohisJz5pTCzruCNjWbfp_N-aNWqYgKS-ftfqfo.woff2");
+  font-display: swap;
+  }
 
 .parrafo-sin-contenedor{
   font: italic small-caps bold 1rem/ 0.5 sans-serif;
 }
 
+.parrafo-con-contenedor{
+  font-family: "Playwrite", 'Lucida Sans';
+  color:brown
+}
+
 li{
   font-family: Monserrat;
   font-size: 3rem;
+}
+
+p{
+  font-family: Gupter, sans-serif;
+  font-weight: bolder;
+  color:chocolate;
 }
