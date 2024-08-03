@@ -1,0 +1,34 @@
+/* Reseteo y normalización de la página  */
+
+* {
+  box-sizing: border-box;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+p{
+  font-size: 1.5rem;
+  background-color: brown;
+  margin-bottom: 0.5rem;
+  text-align: end; /* lo mismo que right*/
+}
+
+.parrafo-con-contenedor{
+  text-align: start; /* lo mismo que left*/
+  text-align-last: end;
+  text-indent: 2rem;
+  background-color: chocolate;
+}

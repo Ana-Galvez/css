@@ -173,3 +173,8 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 ### Estilos de fuentes
 1. font    shorthand que une font-style font-variant font-weight font-size line-height font-family
 2. regla @font-face se utiliza para agregar un tipo de letra que no tiene font-family, ya sea de un archivo o de un sitio web. @font-face { font-family: Monserrat; src: url("src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUQjIg1_i6t8kCHKm459WxRyS7m.woff2))} y luego en el elemento que se quiere usar  p{ font-family: monserrat, sans-serif}  sans-serif o cualquier tipografía que agarra css por si no anda el enlace. Al usar archivos woff2 o woff (woff1) conviene agregar font-display:swap, ya que hasta que cargue la fuente woff2 va a aparecer el valor predeterminado.
+
+### Estilos de texto
+1. text-align: start(left) end(right)
+2. text-align-last   -   alinea la última línea del párrafo
+3. text-indent   -   para dar sangría de primera línea
