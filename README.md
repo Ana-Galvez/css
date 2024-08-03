@@ -183,3 +183,8 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 
 ### Bordes
 1. border-radius  -  es un shorthand de border-top-left(border-start-start)  border-top-right(border-start-end) border-bottom-right(border-end-end) border-bottom-left(border-end-start)   si se usara / entre los valores va a dar forma de elipse no circular ej  border-radius: 3rem / 5rem   si se quiere hacer un círculo border-radius:50%, siendo el width y height de igual tamaño
+
+### Outline
+- es como un borde pero no forma parte del box-model, o sea, si le aumentamos el ancho va a ocupar espacio de otros elementos.
+- es un shorthand de outline-width outline-style outline-color   ej outline:2px solid blue
+- outline-offset  se aleja o se acerca al elemento  ej  outline-offset: 1rem (se aleja)  outline-offset: -1rem(se acerca)
