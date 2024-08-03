@@ -18,7 +18,17 @@ p {
   text-wrap: pretty;
 }
 
+@font-face {
+  font-family: Monserrat;
+  src: url("https://fonts.gstatic.com/s/montserrat/v26/JTUQjIg1_i6t8kCHKm459WxRyS7m.woff2");
+  font-display: swap;
+}
 
 .parrafo-sin-contenedor{
   font: italic small-caps bold 1rem/ 0.5 sans-serif;
+}
+
+li{
+  font-family: Monserrat;
+  font-size: 3rem;
 }
