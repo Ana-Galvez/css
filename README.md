@@ -180,3 +180,6 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 3. text-indent   -   para dar sangría de primera línea
 4. text-overflow  - pone 1 sola línea y ...  hay que usar overflow:hidden y white-space:nowrap(para que solo sea 1 línea);
 5. text-transform / letter-spacing/ white-space(pre:respeta todos los espacios como lo pusimos en el html) / word-break:break-all(separa la última palabra de cada línea) / word-spacing: pone más o menos espacio entre las palabras / writing-mode: orientación horizontal o vertical
+
+### Bordes
+1. border-radius  -  es un shorthand de border-top-left(border-start-start)  border-top-right(border-start-end) border-bottom-right(border-end-end) border-bottom-left(border-end-start)   si se usara / entre los valores va a dar forma de elipse no circular ej  border-radius: 3rem / 5rem   si se quiere hacer un círculo border-radius:50%, siendo el width y height de igual tamaño
