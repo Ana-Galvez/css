@@ -19,16 +19,35 @@ p {
   text-wrap: pretty;
 }
 
-p{
+p:not(.parrafo-con-contenedor){
   font-size: 1.5rem;
   background-color: brown;
   margin-bottom: 0.5rem;
   text-align: end; /* lo mismo que right*/
+  word-break: break-all;
+  word-spacing: 1rem;
 }
 
 .parrafo-con-contenedor{
   text-align: start; /* lo mismo que left*/
   text-align-last: end;
   text-indent: 2rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
   background-color: chocolate;
+  word-spacing: -1rem; /* achica los espacios entre palabras*/
+}
+
+p.code{
+  background-color: transparent !important;
+  white-space: pre;
+  text-align: start;
+}
+
+.parrafo-sin-contenedor{
+  color:rgb(37, 170, 227);
+  writing-mode:vertical-rl;
+  -webkit-writing-mode:vertical-rl;
+  -ms-writing-mode:vertical-rl;
 }

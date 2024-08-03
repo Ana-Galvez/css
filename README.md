@@ -178,3 +178,5 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 1. text-align: start(left) end(right)
 2. text-align-last   -   alinea la última línea del párrafo
 3. text-indent   -   para dar sangría de primera línea
+4. text-overflow  - pone 1 sola línea y ...  hay que usar overflow:hidden y white-space:nowrap(para que solo sea 1 línea);
+5. text-transform / letter-spacing/ white-space(pre:respeta todos los espacios como lo pusimos en el html) / word-break:break-all(separa la última palabra de cada línea) / word-spacing: pone más o menos espacio entre las palabras / writing-mode: orientación horizontal o vertical
