@@ -1,0 +1,31 @@
+/* Reseteo y normalización de la página  */
+
+* {
+  box-sizing: border-box;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+div{
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  border:0.5rem solid chocolate;
+  margin-right: 2rem;
+}
