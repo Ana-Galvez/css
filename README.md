@@ -188,3 +188,7 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 - es como un borde pero no forma parte del box-model, o sea, si le aumentamos el ancho va a ocupar espacio de otros elementos.
 - es un shorthand de outline-width outline-style outline-color   ej outline:2px solid blue
 - outline-offset  se aleja o se acerca al elemento  ej  outline-offset: 1rem (se aleja)  outline-offset: -1rem(se acerca)
+
+### Estilos de fondo
+1. background - shorthand de (pongo bg para hacerlo más corto pero hay que escribir background)  bg-image bg position bg-size bg-repeat bg-origin bg-clip bg-attachment bg-color
+2. background-image: url("ruta") sea de un archivo o web (OJO que no se acomoda al tamaño del contenedor)

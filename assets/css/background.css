@@ -29,3 +29,7 @@ div{
   border:0.5rem solid chocolate;
   margin-right: 2rem;
 }
+
+.contenedor1{
+  background-image: url("../img/foto1.jpeg");
+}
