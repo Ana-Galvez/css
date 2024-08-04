@@ -205,6 +205,6 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
   1. background-position: 25px 50px; 1 valor es para el horizontal y 2 valores, el primero el horizontal y el segundo para el vertical
   2. background-position: top center; se puede combinar center left right top bottom
 6. background-clip: setea desde cuando comienza a mostrarse la img respecto al borde, padding o contenido del contenedor
-  1. background-clip:border-box; la img comienza incluyendo los bordes del contenedor, es el valor por defecto
-  2. background-clip: padding-box; la img comienza sin incluir los bordes, o sea en el padding del contenedor
+  1. background-clip:border-box; la img no comienza en los bordes del contenedor pero si le ponemos un background-color,este sí está en los bordes, es el valor por defecto
+  2. background-clip: padding-box; la img comienza sin incluir los bordes, pero tampoco el background-color, o sea en el padding del contenedor
   3. background-clip: content-box; la img comienza sin incluir el padding puesto, o sea desde el contenido del contenedor (padding > 0)

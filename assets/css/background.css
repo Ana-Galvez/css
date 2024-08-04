@@ -70,20 +70,25 @@ div{
   background-position: right bottom; 
 }
 
-.contenedor9, .contenedor10, .contenedor11{
+.contenedor9, .contenedor10, .contenedor11, .contenedor12{
   border-style: dotted;
+  background-color: red;
+  background-size: 250px 50px;
+  background-repeat: no-repeat;
 }
 .contenedor9{
   background-clip: border-box; /* valor por defecto*/
+
 }
 .contenedor10{
   background-clip: padding-box; /* no se incluye en el borde*/
 }
-.contenedor11{
-  background-color: rgb(16, 203, 228);
-  background-size: 250px 50px;
-  background-repeat: no-repeat;
+.contenedor11, .contenedor12{
   background-clip: content-box; /* no incluye padding(hay que agregar algún padding) ni borde*/
   padding:1rem;
+}
+
+.contenedor12{
+  background-clip: padding-box;
 }
 
