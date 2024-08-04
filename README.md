@@ -203,3 +203,4 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
   3. background-repeat: repeat-x; repite solo verticalmente y queda el color de fondo(si no hay background-color, entonces es el color por defecto del navegador)
 5. background-position: setea posición de la img respecto al contenedor. (Para ver que funciona se debe poner background-repeat:no-repeat)
   1. background-position: 25px 50px; 1 valor es para el horizontal y 2 valores, el primero el horizontal y el segundo para el vertical
+  2. background-position: top center; se puede combinar center left right top bottom

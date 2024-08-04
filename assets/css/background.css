@@ -64,8 +64,9 @@ div{
 .contenedor8{
   background-size: 250px 50px;
   background-repeat: no-repeat;
-  background-position: 25px;
-  background-position: 25px 50px;
+  background-position: 25px; /* con 1 valor mueve horizontalmente y centrado verticalmente*/
+  background-position: 25px 50px; /* con 2 valores, primero horizontalmente y el segundo verticalmente*/
+  background-position: center; /* con valores y mezcla de center left right top bottom*/
+  background-position: right bottom; 
 }
-
 
