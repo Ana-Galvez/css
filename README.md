@@ -192,3 +192,8 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 ### Estilos de fondo
 1. background - shorthand de (pongo bg para hacerlo más corto pero hay que escribir background)  bg-image bg position bg-size bg-repeat bg-origin bg-clip bg-attachment bg-color
 2. background-image: url("ruta") sea de un archivo o web (OJO que no se acomoda al tamaño del contenedor)
+3. background-size: setea el tamaño de la imágen
+  1. background-size: 250px; /* si se usa 1 valor es para el ancho y el alto calcula automáticamente, si queda lugar repite parte de la imágen*/
+  2. background-size: 250px 50px; /* si se usa 2 valores es para el ancho y el alto, si el contenedor es más alto que el ancho o alto, repite parte de la imagen*/
+  3. background-size: contain; ajusta la imagen al contenedor para que se vea proporcional, si queda lugar repite parte de la imagen
+  4. background-size: cover; escala la imagen (conservando su proporción) al tamaño más pequeño posible para llenar el contenedor

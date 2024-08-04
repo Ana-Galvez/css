@@ -25,11 +25,23 @@ p {
 div{
   display: inline-block;
   width: 500px;
-  height: 500px;
+  height: 200px;
   border:0.5rem solid chocolate;
   margin-right: 2rem;
-}
-
-.contenedor1{
   background-image: url("../img/foto1.jpeg");
 }
+
+.contenedor2{
+  background-size: 250px; /* si se usa 1 valor es para el ancho y el alto calcula automáticamente, si queda lugar repite parte de la imagen*/
+  background-size: 250px 50px; /* si se usa 2 valores es para el ancho y el alto, si el contenedor es más alto que el ancho o alto, repite parte de la imagen*/
+}
+
+.contenedor3{
+  background-size: contain;
+}
+
+.contenedor4{
+  background-size: cover;
+}
+
+
