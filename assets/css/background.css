@@ -83,12 +83,15 @@ div{
 .contenedor10{
   background-clip: padding-box; /* no se incluye en el borde*/
 }
-.contenedor11, .contenedor12{
+.contenedor11{
   background-clip: content-box; /* no incluye padding(hay que agregar algún padding) ni borde*/
   padding:1rem;
 }
 
 .contenedor12{
-  background-clip: padding-box;
+  /* background-origin:padding-box; es el valor por defecto*/
+  background-origin: border-box;
+  padding: 1rem;
+  /* background-origin: content-box; */
 }
 

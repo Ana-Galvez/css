@@ -208,3 +208,6 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
   1. background-clip:border-box; la img no comienza en los bordes del contenedor pero si le ponemos un background-color,este sí está en los bordes, es el valor por defecto
   2. background-clip: padding-box; la img comienza sin incluir los bordes, pero tampoco el background-color, o sea en el padding del contenedor
   3. background-clip: content-box; la img comienza sin incluir el padding puesto, o sea desde el contenido del contenedor (padding > 0)
+7. background-origin: funciona igual que background-clip, siendo su valor por defecto padding-box
+  1. background-origin: padding-box; igual que en background-clip:padding box,  es el valor por defecto
+  2. background-origin: border-box; a diferencia de clip, sí incluye la img en el borde
