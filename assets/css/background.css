@@ -23,7 +23,6 @@ p {
 }
 
 div{
-  display: inline-block;
   width: 500px;
   height: 200px;
   border:0.5rem solid chocolate;
@@ -42,6 +41,24 @@ div{
 
 .contenedor4{
   background-size: cover;
+}
+
+.contenedor5{
+  background-size: 250px 50px; /* si se usa 2 valores es para el ancho y el alto, si el contenedor es más alto que el ancho o alto, repite parte de la imagen*/
+  background-repeat: no-repeat; /* no repeat borra las img que se repiten y queda el color de fondo(si no hay background-color, entonces es el color por defecto del navegador)*/
+  background-color:blanchedalmond;
+}
+
+.contenedor6{
+  background-size: 250px 50px; /* si se usa 2 valores es para el ancho y el alto, si el contenedor es más alto que el ancho o alto, repite parte de la imagen*/
+  background-repeat: repeat-x; 
+  background-color:blanchedalmond;
+}
+
+.contenedor7{
+  background-size: 250px 50px; /* si se usa 2 valores es para el ancho y el alto, si el contenedor es más alto que el ancho o alto, repite parte de la imagen*/
+  background-repeat: repeat-y; 
+  background-color:blanchedalmond;
 }
 
 

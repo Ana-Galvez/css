@@ -197,3 +197,7 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
   2. background-size: 250px 50px; /* si se usa 2 valores es para el ancho y el alto, si el contenedor es más alto que el ancho o alto, repite parte de la imagen*/
   3. background-size: contain; ajusta la imagen al contenedor para que se vea proporcional, si queda lugar repite parte de la imagen
   4. background-size: cover; escala la imagen (conservando su proporción) al tamaño más pequeño posible para llenar el contenedor
+4. background-repeat: setea la repetición de la img si es más chica que el contenedor 
+  1. background-repeat:no-repeat; /* no repeat borra las img que se repiten y queda el color de fondo(si no hay background-color, entonces es el color por defecto del navegador)*/
+  2. background-repeat: repeat-x; repite solo horizontalmente y queda el color de fondo(si no hay background-color, entonces es el color por defecto del navegador)
+  3. background-repeat: repeat-x; repite solo verticalmente y queda el color de fondo(si no hay background-color, entonces es el color por defecto del navegador)
