@@ -211,3 +211,4 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 7. background-origin: funciona igual que background-clip, siendo su valor por defecto padding-box
   1. background-origin: padding-box; igual que en background-clip:padding box,  es el valor por defecto
   2. background-origin: border-box; a diferencia de clip, sí incluye la img en el borde
+8. background-attachment: da efecto tipo parallax a la img con el valor fixed (atención al tamaño del contenedor)
