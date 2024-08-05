@@ -222,3 +222,9 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 </pre>
 1. object-fit: es parecido a bg-position que usa contain y cover
 2. object-position: al usar object-fit, este usa 50% 50%, permite usar como bg-position  center left right bottom
+
+### Estilos de listas
+1. list-style-image: url(ruta)   para poner una img como viñeta (ver tamaño)
+2. list-style-type: dar forma a la viñeta o número
+3. list-style-position: inline   la viñeta va dentro del contenido si tiene más de 1 línea
+4. list-style: shorthand   type  image position
