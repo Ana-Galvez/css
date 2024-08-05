@@ -1,0 +1,60 @@
+/* Reseteo y normalización de la página  */
+
+* {
+  box-sizing: border-box;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+.img1{
+  object-position: 50% 50%;
+  object-fit: contain;
+}
+
+.contenedor, .contenedor2{
+  border:5px solid rgb(50, 45, 202);
+  width: 500px;
+  height: 500px;
+  background-color: brown;
+}
+
+.img2, .img3, .img4, .img5{
+  width: 49%;
+  height: 100%;
+  object-fit:cover;
+  object-position:left;
+}
+
+.img3{
+  object-fit: contain;
+  object-position:bottom;
+}
+.img4{
+  height: 80%;
+  object-fit: none;
+  object-position:top center;
+}
+.img5{
+  height: 60%;
+  object-fit: scale-down;
+  object-position:top;
+}
