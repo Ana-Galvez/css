@@ -214,5 +214,11 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 8. background-attachment: da efecto tipo parallax a la img con el valor fixed (atención al tamaño del contenedor)
 
 ### Estilos de imágenes
+- Para hacer las img responsive 
+<pre> img{
+        max-width: 100%;
+        height: auto;
+      }
+</pre>
 1. object-fit: es parecido a bg-position que usa contain y cover
 2. object-position: al usar object-fit, este usa 50% 50%, permite usar como bg-position  center left right bottom
