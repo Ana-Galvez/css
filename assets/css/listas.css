@@ -1,0 +1,51 @@
+/* Reseteo y normalización de la página  */
+
+* {
+  box-sizing: border-box;
+  min-width: 0;
+  /* margin: 0;
+  padding: 0; */
+}
+
+body {
+  min-height: 100dvh;
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h2{
+  margin: 2rem 0;
+}
+
+body ul:first-of-type{
+  list-style-type: decimal-leading-zero;
+}
+body ul:nth-of-type(2){
+  list-style-type: lower-greek;
+}
+body ul:nth-of-type(3){
+  list-style-type: square
+}
+body ul:nth-of-type(4){
+  list-style-type: armenian;
+}
+body ul:nth-of-type(5){
+  list-style-type: upper-roman;
+}
+body ul:nth-of-type(6){
+  list-style-type: none;
+}
+body ul:last-of-type{
+  list-style-image: url("../img/arrow-up-circle-fill.svg");
+}

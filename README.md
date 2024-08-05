@@ -228,3 +228,4 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 2. list-style-type: dar forma a la viñeta o número
 3. list-style-position: inline   la viñeta va dentro del contenido si tiene más de 1 línea
 4. list-style: shorthand   type  image position
+- IMPORTANTE: a etiquetas ol se le puede agregar atributos html reversed para que cuente de atrás hacia adelante y start="nº" para comenzar por un número específico y no el 1.
