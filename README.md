@@ -243,4 +243,6 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 10. column-span:all   poniendo en un elemento hace que ese elemento no esté dentro de las columnas
 
 ### Estilos de tablas
-1. border-collapse:separate/collapse  solo se pone en la etiqueta table y cuando se usar bordes para tr td y table
+1. border-collapse:separate/collapse  solo se pone en la etiqueta table y cuando se usa bordes para tr td y table. Muestra los border o no en cada celda
+2. border-spacing:   se usa con border-collapse:separate   da un poco más de espaciado entre las celdas.
+3. empty-cells:hide  solo en table y con border-collapse:separate   oculta las celdas que no tienen contenido
