@@ -243,3 +243,4 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 10. column-span:all   poniendo en un elemento hace que ese elemento no esté dentro de las columnas
 
 ### Estilos de tablas
+1. border-collapse:separate/collapse  solo se pone en la etiqueta table y cuando se usar bordes para tr td y table
