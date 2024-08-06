@@ -241,3 +241,5 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 8. column-gap: define la distancia mínima entre cada columna
 9. column-fill:auto   define según la cantidad de columnas que se asigne cubre un %
 10. column-span:all   poniendo en un elemento hace que ese elemento no esté dentro de las columnas
+
+### Estilos de tablas
