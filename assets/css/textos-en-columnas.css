@@ -1,0 +1,56 @@
+/* Reseteo y normalización de la página  */
+
+* {
+  box-sizing: border-box;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h2{
+  margin: 1rem 0;
+}
+
+ul{
+  margin-left: 3rem;
+}
+
+.lista1{
+  column-count: 4;
+  column-gap: 3rem;
+  column-rule:dotted 5px red;
+  column-width: 3rem;
+}
+
+article{
+  column-count:2;
+  column-width: 8rem;
+  column-rule: groove green 4px;
+  /* column-fill:auto; */
+}
+
+h2{
+  column-span: all;
+}
+
+/* .otro-parrafo{
+  columns: 2 8rem;
+  column-rule:ridge chocolate;
+} */
