@@ -229,3 +229,15 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 3. list-style-position: inline   la viñeta va dentro del contenido si tiene más de 1 línea
 4. list-style: shorthand   type  image position
 - IMPORTANTE: a etiquetas ol se le puede agregar atributos html reversed para que cuente de atrás hacia adelante y start="nº" para comenzar por un número específico y no el 1.
+
+### Estilos en columnas
+1. columns: column-count column-width  shorthand
+2. column-count:   cantidad de columnas
+3. column-width:  ancho mínimo de cada columna
+4. column-rule: style width color  shorthand para poner una línea vertical entre cada columna
+5. column-rule-style: define el tipo de línea
+6. column-rule-width: define el ancho de la línea
+7. column-rule-color:
+8. column-gap: define la distancia mínima entre cada columna
+9. column-fill:auto   define según la cantidad de columnas que se asigne cubre un %
+10. column-span:all   poniendo en un elemento hace que ese elemento no esté dentro de las columnas
