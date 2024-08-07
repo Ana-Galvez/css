@@ -241,3 +241,11 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 8. column-gap: define la distancia mínima entre cada columna
 9. column-fill:auto   define según la cantidad de columnas que se asigne cubre un %
 10. column-span:all   poniendo en un elemento hace que ese elemento no esté dentro de las columnas
+
+### Estilos de tablas
+1. border-collapse:separate/collapse  solo se pone en la etiqueta table y cuando se usa bordes para tr td y table. Muestra los border o no en cada celda
+2. border-spacing:   se usa con border-collapse:separate   da un poco más de espaciado entre las celdas.
+3. empty-cells:hide  solo en table y con border-collapse:separate   oculta las celdas que no tienen contenido
+
+### Estilos de formularios
+- No hay estilos únicos para los elementos de formularios, se usan los atributos conocidos, ya sean color, bg, align, margin, padding, etc. Uno interesante es caret-color   que en input o text-area permite cambiar el color del cursor cuando se apreta en esos elementos

@@ -1,0 +1,47 @@
+/* Reseteo y normalición de la página  */
+
+* {
+  box-sizing: border-box;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+body{
+  margin-top: 300px;
+  margin-left: 550px;
+}
+
+table{
+  font-size: 1.5rem;
+  border: 1px solid brown;
+  border-collapse: separate;
+  empty-cells: hide;
+}
+
+th{
+  background-color: cornflowerblue;
+  border: 1px solid red;
+  border-spacing: 2rem;
+}
+
+tr,td{
+  border: 1px solid blue;
+  border-spacing: 3rem;
+}
+
+tr:nth-child(odd){
+  background-color: coral;
+}
