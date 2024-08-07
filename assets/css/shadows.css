@@ -31,7 +31,7 @@ p {
 
 p{
   padding: 100px 20px;
-  box-shadow: 3px 3px 3px 3px #108ad1;
+  box-shadow: 3px 3px 3px 3px #108ad1 inset;
 }
 /* sombra a cajas contenedoras */
 .box-shadow{

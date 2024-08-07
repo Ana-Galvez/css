@@ -1,4 +1,4 @@
-# NOTAS SOBRE CSS
+# *NOTAS SOBRE CSS*
 
 ### Especificidad (Hay que tener en cuenta los tipos de selectores, excepto en inline que solo puede ser una etiqueta)
 1. css inline
@@ -171,7 +171,7 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 - función clamp(min, ideal, max)
 
 ### Estilos de fuentes
-1. font    shorthand que une font-style font-variant font-weight font-size line-height font-family
+1. **font**    shorthand que une font-style font-variant font-weight font-size line-height font-family
 2. regla @font-face se utiliza para agregar un tipo de letra que no tiene font-family, ya sea de un archivo o de un sitio web. @font-face { font-family: Monserrat; src: url("src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUQjIg1_i6t8kCHKm459WxRyS7m.woff2))} y luego en el elemento que se quiere usar  p{ font-family: monserrat, sans-serif}  sans-serif o cualquier tipografía que agarra css por si no anda el enlace. Al usar archivos woff2 o woff (woff1) conviene agregar font-display:swap, ya que hasta que cargue la fuente woff2 va a aparecer el valor predeterminado.
 
 ### Estilos de texto
@@ -251,5 +251,5 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 - No hay estilos únicos para los elementos de formularios, se usan los atributos conocidos, ya sean color, bg, align, margin, padding, etc. Uno interesante es caret-color   que en input o text-area permite cambiar el color del cursor cuando se apreta en esos elementos
 
 ### Estilos de sombras
-1. box-shadow: x   y   blur   spread   color   se aplica a los bordes
+1. box-shadow: x   y   blur   spread   color   se aplica a los bordes. Se puede agregar a lo último inset, si queremos que la sombra esté dentro del contenedor.
 - box-shadow: x   y   blur   spread   color, x  y  blur  spread  color (separado por , se pueden agregar más capas de sombras)
