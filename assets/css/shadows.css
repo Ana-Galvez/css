@@ -11,7 +11,10 @@ body {
   min-height: 100dvh;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   text-wrap: balance;
 }
 
@@ -21,22 +24,25 @@ p {
 
 /* -------------- */
 
-.box-shadow,.box-shadow1{
+.box-shadow,
+.box-shadow1 {
   width: 500px;
   height: 500px;
   background-color: #444;
-  margin:80px auto;
+  margin: 80px auto;
   /* border:solid 1px red; */
 }
 
-p{
+p {
   padding: 100px 20px;
   box-shadow: 3px 3px 3px 3px #108ad1 inset;
+  /* text-shadow: 7px 7px 17px #c02c2ce8; */
+  text-shadow: #4f54b8 -2px -5px 1px, #1ed154 1px 7px 2px;
 }
 /* sombra a cajas contenedoras */
-.box-shadow{
+.box-shadow {
   box-shadow: 15px 15px 3px 3px #7a10d1;
 }
-.box-shadow1{
+.box-shadow1 {
   box-shadow: 5px 15px 30px #7a10d1 inset, 10px 20px 20px #108ad1;
 }

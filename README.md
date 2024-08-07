@@ -253,3 +253,4 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 ### Estilos de sombras
 1. box-shadow: x   y   blur   spread   color   se aplica a los bordes. Se puede agregar a lo último inset, si queremos que la sombra esté dentro del contenedor.
 - box-shadow: x   y   blur   spread   color, x  y  blur  spread  color (separado por , se pueden agregar más capas de sombras)
+2. text-shadow: x  y  blur  color, más sobras si se quiere.   Se aplica a las letras.
