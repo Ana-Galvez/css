@@ -29,3 +29,7 @@ div{
   linear-gradient(0.30turn, rgb(54, 108, 37),rgb(39, 28, 187),rgb(192, 38, 156)),
   linear-gradient(20deg, rgb(163, 161, 132),rgb(166, 173, 165),rgb(205, 129, 29));
 }
+
+.degradado2{
+  background-image: repeating-radial-gradient(closest-side at 90% 90%,  red 10%,blue 35%,yellow 70%,green);
+}
