@@ -25,7 +25,8 @@ p {
 /* -------------- */
 
 .box-shadow,
-.box-shadow1 {
+.box-shadow1,
+.drop-shadow1 {
   width: 500px;
   height: 500px;
   background-color: #444;
@@ -36,13 +37,20 @@ p {
 p {
   padding: 100px 20px;
   box-shadow: 3px 3px 3px 3px #108ad1 inset;
-  /* text-shadow: 7px 7px 17px #c02c2ce8; */
-  text-shadow: #4f54b8 -2px -5px 1px, #1ed154 1px 7px 2px;
+  /*text-shadow: 7px 7px 17px #c02c2ce8;
+  */text-shadow: #4f54b8 -2px -5px 1px, #1ed154 1px 7px 2px;
 }
 /* sombra a cajas contenedoras */
 .box-shadow {
   box-shadow: 15px 15px 3px 3px #7a10d1;
+
 }
 .box-shadow1 {
   box-shadow: 5px 15px 30px #7a10d1 inset, 10px 20px 20px #108ad1;
+
+}
+img{
+  margin-top: 10px;
+  margin-left: 800px;
+  filter:drop-shadow(15px 5px rgb(30, 54, 210)) drop-shadow(-15px 5px 5px rgb(25, 171, 62));
 }
