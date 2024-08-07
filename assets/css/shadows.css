@@ -1,0 +1,39 @@
+/* Reseteo y normalición de la página  */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* -------------- */
+
+.box-shadow{
+  width: 500px;
+  height: 500px;
+  background-color: #444;
+  margin:200px auto;
+  /* border:solid 1px red; */
+}
+
+p{
+  padding: 100px 20px;
+  box-shadow: 3px 3px 3px 3px #108ad1;
+}
+/* sombra a cajas contenedoras */
+.box-shadow{
+  box-shadow: 15px 15px 3px 3px #7a10d1;
+}

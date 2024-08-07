@@ -249,3 +249,6 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 
 ### Estilos de formularios
 - No hay estilos únicos para los elementos de formularios, se usan los atributos conocidos, ya sean color, bg, align, margin, padding, etc. Uno interesante es caret-color   que en input o text-area permite cambiar el color del cursor cuando se apreta en esos elementos
+
+### Estilos de sombras
+1. box-shadow: x   y   blur   spread   color   se aplica a los bordes
