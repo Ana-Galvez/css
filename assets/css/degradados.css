@@ -1,0 +1,31 @@
+/* Reseteo y normalición de la página  */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+div{
+  width: 500px;
+  height: 500px;
+}
+
+.degradado1{
+  background-image: linear-gradient(to bottom left, #fe1,rgba(255,0,0,1),rgb(176, 170, 221)),
+  linear-gradient(0.30turn, rgb(54, 108, 37),rgb(39, 28, 187),rgb(192, 38, 156)),
+  linear-gradient(20deg, rgb(163, 161, 132),rgb(166, 173, 165),rgb(205, 129, 29));
+}
