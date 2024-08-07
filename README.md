@@ -264,3 +264,5 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 2. radial-gradient(forma sentido, color1 %, color2 %, etc)
 - tiene sentido circular o elíptica. La forma circle medida o  ellipse medidax mediday. El sentido puede ser en unidades de medidas o también con closest-side, closest-corner, farthest-corner, farthest-side poniendo % para la x y % para la y. EJ  radia-gradient(closest-side at 45% 33%, red,blue,yellow)   también at left, right,bottom, top ej radial-gradient(ellipse 50px 80px at left,red %45%,blue)
 - se puede usar repeating-radial-gradient para repetir
+3. conic-gradient(sentido, colores)   el sentido es   from deg,turn o rad at x  y , colores%.
+- se puede usar repeating-conic-gradient para repetir
