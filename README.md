@@ -252,3 +252,4 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 
 ### Estilos de sombras
 1. box-shadow: x   y   blur   spread   color   se aplica a los bordes
+- box-shadow: x   y   blur   spread   color, x  y  blur  spread  color (separado por , se pueden agregar más capas de sombras)
