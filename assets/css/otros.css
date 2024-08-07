@@ -1,0 +1,42 @@
+/* Reseteo y normalición de la página  */
+
+* {
+  box-sizing: border-box;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100dvh;
+
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* Probar el resize con div */
+.con-resize{
+  margin-left: auto;
+  margin-right:auto;  
+  width: 500px;
+  height: 500px;
+  background-color: #764949;
+  resize: both; /*horizontal o vertical*/
+  overflow: auto; /* si está en visible no funciona*/
+}
+
+/* Usar tema claro u oscuro con select */
+body:has(option[value="light"]:checked){
+  background-color: white;
+  color:black;
+}
+body:has(option[value="dark"]:checked){
+  background-color: black;
+  color:white;
+}
