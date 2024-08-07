@@ -261,6 +261,6 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 - Linear-gradient mínimo 2 colores y el sentido de los colores es opcional (deg, turn o palabras claves(to top, bottom, right, left))
 - A cada color se le puede poner un % que define cuanto ocupa ese color ej  linear-gradient(0.25turn, #ead 30%, red, blue)
 - se puede usar repeating-linear-gradient para repetir los colores.
-2. radial-gradient(sentido, color1 %, color2 %, etc)
-- tiene sentido circular.  El sentido puede ser en unidades de medidas o también con closest-side, closest-corner, farthest-corner, farthest-side poniendo % para la x y % para la y. EJ  radia-gradient(closest-side at 45% 33%, red,blue,yellow)
+2. radial-gradient(forma sentido, color1 %, color2 %, etc)
+- tiene sentido circular o elíptica. La forma circle medida o  ellipse medidax mediday. El sentido puede ser en unidades de medidas o también con closest-side, closest-corner, farthest-corner, farthest-side poniendo % para la x y % para la y. EJ  radia-gradient(closest-side at 45% 33%, red,blue,yellow)   también at left, right,bottom, top ej radial-gradient(ellipse 50px 80px at left,red %45%,blue)
 - se puede usar repeating-radial-gradient para repetir
