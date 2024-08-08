@@ -266,3 +266,18 @@ ej: rgb(34, 234, 56). Cuanto más cerca de 255 se acerca a la tonalidad dependie
 - se puede usar repeating-radial-gradient para repetir
 3. conic-gradient(sentido, colores)   el sentido es   from deg,turn o rad at x  y , colores%.
 - se puede usar repeating-conic-gradient para repetir
+
+### Estilos de filtros
+- conviene usar con imágenes y se usa con el atributo filter
+- son funciones y se pueden repetir en un solo filter  ej filter:sepia(60%) blur(1px) brightness(50%) hue-rotate(120deg) invert(20%);
+1. filter: blur(unidad de medida);
+2. filter: brightness(% o 0 a 1);
+3. filter: contrast(% o 0 a 1);
+4. filter: drop-shadow VISTO EN ESTILOS DE SOMBRAS
+5. filter: grayscale(% o 0 a 1);
+6. filter: hue-rotate(deg);
+7. filter: invert(% o 0 a 1);
+8. filter: opacity(% o 0 a 1);
+9. filter: saturate(% o 0 a 1);
+10. filter: sepia(% o 0 a 1);
+
